@@ -1,0 +1,75 @@
+
+body{
+    margin: 0; /*pour eliminer les marges ou les espaces laisser par le body*/
+    color: white;
+    font-family: sans-serif;
+    background-color: black;
+}
+
+h1{
+    font-size: 70px;
+    font-weight: 800;
+}
+
+p{
+    font-size: 40px;
+}
+.conteneur-email{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.email{
+    height: 85px;
+    width: 600px;
+    background-color: rgba(0,0 ,0 ,0.5 );
+    border: gray 1px solid;
+    color: white;
+    font-size: 27px;
+    padding: 0 20px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.bt-getStarted{
+    height: 90px;
+    width: 350px;
+    background-color: #E50914;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 35px;
+    border-radius: 10px;
+}
+
+header{
+    display: flex; /* pour rendre le header flexible */
+    justify-content:space-between;  /* pour que les éléments occupent les espaces restant comme ici ils sont à deux et vont se mettre chacun au coin */
+    align-items: center; /*pour les aligner verticalement au centre*/
+    height: 120px;
+    position :absolute; /*  pour faire passer un element en bas d'une autre element */
+    width: 100%;
+}
+
+.button-sign-in{
+    width: 120px; 
+    height: 50px; 
+    font-size: 22px;
+    font-weight:700; /*Ajouter de l'épaisseur aux lettres*/
+    color: #FFFFFF;
+    background-color: #E50914;
+    border: none; /*none est utilisé pour annuler une propriété*/
+    border-radius: 5px; /* pour arrondir les coins */
+    margin-right: 20px; /*pour ajouter une marge ou un espace de 20px à droit*/
+}
+.banniere{
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/b85863b0-0609-4dba-8fe8-d0370b25b9ee/89d467ae-7af1-414d-bed9-04e0ae16329d/CD-en-20230731-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+    background-size: 150%;
+    text-align: center;
+}
+.couleurTransparent{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 40vh;
+    height: 80vh;
+}
+
+
+
